@@ -9,6 +9,38 @@
     <title>Registration Form</title>
 </head>
 <body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: yellow;
+        color: darkred;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    input {
+        display: inline-block;
+        background-color: darkgray;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: lightblue;
+    }
+</style>
+
 <form action="#" onsubmit="registerUser()">
     Name: <label for="name"></label><input type="text" id="name" value="your name here"> <br> <br>
     Email: <label for="email"></label><input type="email" id="email" value="your email here"> <br> <br>
