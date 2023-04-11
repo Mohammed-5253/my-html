@@ -1,5 +1,4 @@
-function registerUser(event) {
-  event.preventDefault(); // Prevents the default form submission behavior
+function registerUser() {
 
   // Get the form data using the FormData API
   const name = document.getElementById('name').value;
